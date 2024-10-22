@@ -11,10 +11,11 @@ Note: If you want to perform the experiment with the SMS algorithm, in addition 
 
 ## Uploading the datasets
 
-Once the code changes are made, you can go ahead and upload the datasets for your experiments. You can generate the TPC-H benchamrk data for all the TPC-H relted experiments. As for the Movies, Cars and WDC datasets, you can find the links related to those in the paper and can download the datasets from those links and upload them to the PostgreSQL environment.
+Once the code changes are made, you can go ahead and upload the datasets for your experiments. You can generate the TPC-H benchmark data for all the TPC-H related experiments. As for the Movies, Cars and WDC datasets, you can find the links related to those in the paper and can download the datasets from those links and upload them to the PostgreSQL environment.
 
 Once the datasets have been loaded to the PostgreSQL environment, you can create your own shuffles for them using the scripts, 'dataset_shuffler_Cars.py', 'dataset_shuffler_Movies.py', 'dataset_shuffler_WDC.py' and 'script_full_load_custom.py'. These scripts will create 3 different shuffles for each dataset, so that there won't be any bias in the results.
 
 ## Running the experiments
 
-Once the necessary changes have been made to the code base and the datasets have been uploaded into the PostgreSQL, you can run the experiments by running any of the scripts in the Queries folder. For the TCH-H related queries, you need to go into the 'TPCH_Queries' subfolder and run the 'script_experiment.py' script and for the other dataset related experiments, you can run the 'similarity_Cars.py', 'similarity_Movies.py' or 'similarity_WDC.py' scripts.
+Once the necessary changes have been made to the code base and the datasets have been uploaded into the PostgreSQL, you can run the experiments by running any of the scripts in the Queries folder. For the TPC-H related queries, you need to go into the 'TPCH_Queries' subfolder and run the 'script_experiment.py' script and for the other dataset related experiments, you can run the 'similarity_Cars.py', 'similarity_Movies.py' or 'similarity_WDC.py' scripts.
+Please make sure to change the relevant details like database, port, any file paths, etc before running any of the scripts.

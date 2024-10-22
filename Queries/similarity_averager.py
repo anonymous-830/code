@@ -7,13 +7,13 @@ for algo in algos:
     for lv in lvs:
         for weight in weights:
             file_paths = [
-                '/data/mettas/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}1_{}.dat'.format(weight, lv, algo, weight),
-                '/data/mettas/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}2_{}.dat'.format(weight, lv, algo, weight),
-                '/data/mettas/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}3_{}.dat'.format(weight, lv, algo, weight)
+                '/xxxx/xxxx/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}1_{}.dat'.format(weight, lv, algo, weight),
+                '/xxxx/xxxx/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}2_{}.dat'.format(weight, lv, algo, weight),
+                '/xxxx/xxxx/Join-Game/Join_Summary/{}/sum_similarity_lv{}_{}3_{}.dat'.format(weight, lv, algo, weight)
             ]
 
             # Define the output file path
-            output_file_path = '/data/mettas/Join-Game/Results/sum_similarity_lv{}_{}_avg_{}.dat'.format(lv, algo, weight)
+            output_file_path = '/xxxx/xxxx/Join-Game/Results/sum_similarity_lv{}_{}_avg_{}.dat'.format(lv, algo, weight)
 
             # Open the three input files and the output file
             with open(file_paths[0], 'r') as file1, open(file_paths[1], 'r') as file2, open(file_paths[2], 'r') as file3, open(output_file_path, 'w+') as output_file:

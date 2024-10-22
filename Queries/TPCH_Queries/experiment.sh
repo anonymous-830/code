@@ -45,7 +45,7 @@ for query in "${queries[@]}"; do
         mkdir -p "$dir_path"
 
         # Execute the python script with constructed variables
-        python /data/leeyongh-psql/Experiment/script_experiment.py "$full_path" "$index" "$query"
+        python path/to/script_experiment.py "$full_path" "$index" "$query"
     done
 done
 

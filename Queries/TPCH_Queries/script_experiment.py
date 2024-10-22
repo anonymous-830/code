@@ -5,10 +5,10 @@ import psycopg2
 from time import time
 
 # Replace these variables with your own psql connection details
-DATABASE = 'leeyongh'
-USER = 'leeyongh'
-HOST = '/tmp/'
-PORT = '5245'
+DATABASE = 'XXXX'
+USER = 'XXXX'
+HOST = 'XXXX'
+PORT = 'XXXX'
 
 # Verify that exactly two additional command line arguments are provided
 if len(sys.argv) != 4:
